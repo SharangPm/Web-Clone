@@ -31,7 +31,7 @@ const SuggestedFollow = ({ user }) => {
               )}
             </span>
             <span className="text-[color:var(--text-color-secondary)]">
-              {user.username}
+              sharang
             </span>
           </div>
         </NavLink>
