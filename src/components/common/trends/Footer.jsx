@@ -35,7 +35,7 @@ const Footer = () => {
         )
       )}
       <div className="text-xs my-2">
-      &copy; 2024 cemwebdev Corp.
+      &copy; sharangpm.com
       </div>
     </footer>
   );
