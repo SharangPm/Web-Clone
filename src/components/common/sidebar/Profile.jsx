@@ -11,13 +11,13 @@ const Profile = () => {
         <PopoverButton className="mt-3 mb-1 xl:hover:bg-[--hover] transition-colors w-full flex px-2 py-3 rounded-full items-center focus:outline-none">
           <div className="flex items-center gap-1 flex-1">
             <img
-              src={account.avatar}
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b7/X_logo.jpg"
               alt="avatar"
               className="xl:w-10 xl:h-10 rounded-full"
             />
             <div className="xl:flex flex-col items-starts hidden gap-0.5">
-              <h1 className="font-semibold">{account.fullName}</h1>
-              <div className="text-xs">{account.username}</div>
+              <h1 className="font-semibold">SHARANG P M</h1>
+              <div className="text-xs">sharang</div>
             </div>
           </div>
           <PiDotsThreeCircle className="hidden xl:block text-xl" />
@@ -27,7 +27,7 @@ const Profile = () => {
             Add an existing account
           </button>
           <button className="py-2 hover:bg-[--hover] w-full transition-colors">
-            Log out @{account.username}
+            Log out @sharang
           </button>
         </PopoverPanel>
       </Popover>
