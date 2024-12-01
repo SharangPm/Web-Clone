@@ -34,7 +34,7 @@ const Header = () => {
         isActive={activeTab === "entertainment"}
         onClick={() => setActiveData("entertainment")}
       >
-        Entertainment
+        Hai
       </TabItem>
     </HeaderWrapper>
   );
