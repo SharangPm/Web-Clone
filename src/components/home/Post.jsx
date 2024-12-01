@@ -57,8 +57,8 @@ const Post = () => {
     <div className="p-3.5 flex flex-col">
       <div className="flex items-start gap-3">
         <img
-          src={account.avatar}
-          alt={account.username}
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b7/X_logo.jpg"
+          alt="sharang"
           className="w-11 h-11 rounded-full"
         />
         <div className="flex-1 flex border-neutral-500/50 pb-4 flex-col group">

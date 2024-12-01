@@ -25,7 +25,7 @@ const SuggestedFollow = ({ user }) => {
           <img src={user.avatar} alt="" className="rounded-full w-9 h-9" />
           <div className="text-sm flex flex-col items-start">
             <span className="leading-5 text-[color:var(--text-color)] hover:underline flex items-center">
-              {user.fullName}
+              SHARANG P M
               {user?.verified && (
                 <RiVerifiedBadgeFill className="text-blue-500 text-lg ml-0.5" />
               )}
